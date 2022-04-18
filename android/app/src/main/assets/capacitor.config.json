@@ -1,0 +1,23 @@
+{
+	"appId": "dev.cap",
+	"appName": "DevCap",
+	"webDir": "public",
+	"bundledWebRuntime": false,
+	"backgroundColor": "black",
+	"android": {
+		"allowMixedContent": true
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"server": {
+		"url": "http://192.168.20.5:5001",
+		"cleartext": true,
+		"androidScheme": "https",
+		"allowNavigation": [
+			"*"
+		]
+	}
+}

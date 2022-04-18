@@ -2,8 +2,6 @@
 /public/build/
 /public
 .routify/
-android/
-ios/
 
 package-lock.json
 .env
